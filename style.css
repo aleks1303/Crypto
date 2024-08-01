@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/*----------header-------------------*/
+
+header{
+    background-color: #02061A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 188px;
+}
+header div{
+    padding: 102px 0 0 0;
+    width: 74vw;
+    display: flex;
+    justify-content: space-between;
+}
+header div p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    position: relative;
+    z-index: 2;
+}
+nav ul{
+    display: flex;
+    gap: 45px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.ellipse{
+    position: absolute;
+    content: '';
+    top: 0;
+    z-index: 1;
+}
+
+
+/*-----------main----------------*/
+
+/*--------section_discover-------------*/
+
+.discover{
+    background-color: #02061A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.discover>div{
+    width: 74vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.discover>div>div{
+    align-items: flex-end;
+}
+.discover h1{
+    color: #fff;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-bottom: 31px;
+}
+.discover>div>div>div{
+    display: flex;
+    gap: 22px;
+}
+.discover button{
+    color: #FFF;
+    text-align: center;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 250px;
+    height: 95px;
+    border-radius: 50px;
+    border: 3px solid #23263C;
+    background-color: #02061A;
+}
+.discover button:hover{
+    background-color:#23263C ;
+}
+
+/*-------on----------*/
+
+.on{
+    background-color: #02061A;
+    padding: 200px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.on>div{
+    width: 74vw;
+}
+.on h3{
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 0 0 8px 0;
+}
+.on>div>div ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 125px;
+    padding:0 75px;
+    border: 1px #5BD2BD;
+    background: #23263C;
+}
+.on>div>div ul li{
+    list-style: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    opacity: 0.5;
+}
+
+
