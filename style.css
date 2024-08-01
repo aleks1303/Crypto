@@ -157,4 +157,104 @@ nav ul li a {
     opacity: 0.5;
 }
 
+/*-------on-------------*/
+
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #02061A
+}
+.one img{
+    padding: 60px 55px 0 50px;
+}
+.one>div{
+    width: 77vw;
+    display: flex;
+}
+.one>div>div{
+    width: 37vw;
+    position: relative;
+}
+.one>div>div>h2>span{
+    color: #56CAB1;
+    font-weight: 700;
+}
+.one>div>div>span{
+    color: #4C99BB;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px; /* 119.231% */
+}
+.one>div>div>p{
+    color: #fff;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    position: relative;
+    margin: 6px 0 13px 0;
+}
+.one>div>div>p>svg{
+    position: absolute;
+    bottom: -3px;
+    left:278px;
+}
+.one>div>div>p>span{
+    position: absolute;
+    left: 334px;
+}
+.one h2{
+    color: #fff;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 73px; /* 121.667% */
+}
+.one>div>div button{
+    color: #fff;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    border-radius: 16px;
+    border: 1px solid #56CAB1;
+    width: 126px;
+    height: 68px;
+    background-color: #02061A;
+}
+.one>div>div button:first-of-type{
+    position: absolute;
+    left: 5px;
+    top: 407px;
+}
+.info{
+    margin-top: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 521px;
+    height: 132px;
+    border-radius: 18px;
+    background: #3A5B6A;
+    padding: 0 30px;
+}
+.info div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 22px;
+    color: #FFF;
+
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
 
