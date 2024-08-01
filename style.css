@@ -163,7 +163,8 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #02061A
+    background-color: #02061A;
+    padding-bottom: 74px;
 }
 .one img{
     padding: 60px 55px 0 50px;
