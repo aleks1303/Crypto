@@ -574,14 +574,15 @@ input[type="email"]::placeholder{
 }
 footer label{
    position: absolute;
-    right: 0;
+    right: 1px;
+    top: 43px;
     color: #FFF;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: capitalize;
-    height: 58px;
+    height: 56px;
     border-radius: 50px;
     background: #262E48;
     padding: 16px 17px;
