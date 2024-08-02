@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 body{
+    background-color: #02061A;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -16,7 +17,6 @@ body{
 /*----------header-------------------*/
 
 header{
-    background-color: #02061A;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +70,6 @@ nav ul li a {
 /*--------section_discover-------------*/
 
 .discover{
-    background-color: #02061A;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,7 +117,6 @@ nav ul li a {
 /*-------on----------*/
 
 .on{
-    background-color: #02061A;
     padding: 200px 0;
     display: flex;
     align-items: center;
@@ -163,7 +161,6 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #02061A;
     padding-bottom: 74px;
 }
 .one img{
@@ -266,7 +263,6 @@ nav ul li a {
     align-items: flex-end;
     justify-content: center;
     padding-bottom: 234px;
-    background-color: #02061A;
 }
 .carry>div{
     height: 100%;
@@ -317,7 +313,7 @@ display: flex;
 }
 .monkey2{
 position: absolute;
-    right: 258px;
+    right: 237px;
 
 }
 .monkey2>div{
@@ -396,3 +392,204 @@ position: absolute;
     text-align: center;
 }
 
+/*---------section_read------------*/
+
+.read{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 208px;
+}
+.read>div{
+    width: 74vw;
+}
+.read>div div:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.read>div div:first-child span{
+    color: #5BD2BF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+.read>div div:first-child h4{
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 427px;
+    margin-bottom: 147px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+}
+.cards div{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    background: #24293F;
+    position: relative;
+}
+.cards div img{
+    border-radius: 50%;
+    position: absolute;
+    top: -75px;
+}
+.cards h5{
+    padding: 83px 0 27px 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.cards p{
+    padding: 0 20px 75px 20px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/*--------section_buy------------*/
+
+.buy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 262px 0;
+}
+.buy>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 74vw;
+    height: 378px;
+    background: linear-gradient(97deg, #1F143B 19.45%, #3C8273 103.56%);
+}
+.buy h4{
+    padding: 24px 0 40px 0 ;
+    width: 312px;
+    color: #FFF;
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 100% */
+}
+.buy button{
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 150% */
+    text-transform: uppercase;
+    border-radius: 50px;
+    background: #000;
+    padding: 13px 78px;
+}
+
+/*-----------footer----------*/
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 134px;
+}
+footer>div{
+    width: 74vw;
+    display: flex;
+    justify-content: space-between;
+}
+footer p{
+    margin-bottom: 19px;
+    color: #fff;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+footer input{
+    width: 253px;
+    height: 60px;
+    border-radius: 50px;
+    background: #3B7C70;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+input[type="email"]::placeholder{
+    padding: 0 0 0 12px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+footer label{
+   position: absolute;
+    right: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    height: 58px;
+    border-radius: 50px;
+    background: #262E48;
+    padding: 16px 17px;
+    z-index: 1;
+}
+footer>div div:nth-child(5){
+    position: relative;
+}
+footer>div div:nth-child(5) p{
+    margin-bottom: 9px;
+}
